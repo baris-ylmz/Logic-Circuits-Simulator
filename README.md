@@ -11,9 +11,9 @@ This project is a logic circuit simulator that allows users to build and simulat
 ### Getting Started
 ### Prerequisites
 
-    #### CLion IDE or Visual Studio 
-    #### CMake
-    ### SFML library
+    CLion IDE or Visual Studio 
+    CMake
+    SFML library
 
 ### Installation
 
@@ -23,14 +23,10 @@ This project is a logic circuit simulator that allows users to build and simulat
     3. Open the project in CLion or Visual Studio
     4. Install SFML graphics library. https://www.sfml-dev.org/download.php
     5. After extracting the contents of the downloaded archive to a directory depending on your choice
-    6. Open the CMakeLists.txt file in CLion and add the flowwing lines to the bottom of the file
-      set
-
-      
-      set(SFML_STATIC_LIBRARIES TRUE)
-      set(SFML_DIR C:/Users/brsyl/OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML)
-      find_package(SFML COMPONENTS system window graphics audio REQUIRED)
-
+    6. Open the CMakeLists.txt file in CLion and add the following lines to the bottom of the file:  
+     set(SFML_STATIC_LIBRARIES TRUE)
+     set(SFML_DIR C:/Users/brsyl/OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML)
+     find_package(SFML COMPONENTS system window graphics audio REQUIRED)
      include_directories (path/to/SFML-2.x/include)
      target_link_libraries(LogicCircuitsProject sfml-system sfml-window sfml-graphics sfml-audio)
     
