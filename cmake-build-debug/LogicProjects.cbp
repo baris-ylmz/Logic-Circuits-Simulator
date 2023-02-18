@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LogicProjects"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\OneDrive\;CMake Files\..\..\OneDrive\Desktop\;CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\;CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\;CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\;CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LogicProjects">
+				<Option output="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug/LogicProjects.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/brsyl/OneDrive/Desktop/SFML-2.5.1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 LogicProjects"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LogicProjects/fast">
+				<Option output="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug/LogicProjects.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/brsyl/OneDrive/Desktop/SFML-2.5.1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 LogicProjects/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/brsyl/CLionProjects/LogicProjects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\brsyl\CLionProjects\LogicProjects\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Object.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Object.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Pin.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Pin.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Simulator.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Simulator.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/ToolBoxGrid.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/ToolBoxGrid.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Wire.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/Wire.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/AndGateButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/AndGateButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/Button.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/Button.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/DefaultModeButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/DefaultModeButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/DeleteModeButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/DeleteModeButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/LEDButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/LEDButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/LogicOneButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/LogicOneButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/LogicZeroButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/LogicZeroButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/NotGateButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/NotGateButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/OrGateButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/OrGateButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/RunButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/RunButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/StopButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/StopButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/WireModeButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/WireModeButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/XorGateButton.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/buttons/XorGateButton.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/AndGate.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/AndGate.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LED.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LED.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LogicElement.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LogicElement.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LogicOne.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LogicOne.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LogicZero.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/LogicZero.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/NotGate.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/NotGate.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/OrGate.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/OrGate.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/XorGate.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/logicelements/XorGate.h">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/main.cpp">
+			<Option target="LogicProjects"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/../../OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/../../OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/../../OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/../../OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/../../OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/brsyl/CLionProjects/LogicProjects/../../OneDrive/Desktop/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\OneDrive\Desktop\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

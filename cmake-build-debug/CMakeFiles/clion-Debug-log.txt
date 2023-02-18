@@ -1,0 +1,32 @@
+/home/barisy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/barisy/CLionProjects/LogicSimulatorProject -B /home/barisy/CLionProjects/LogicSimulatorProject/cmake-build-debug
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "FindSFML.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "SFML", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "SFML" with any of
+  the following names:
+
+    SFMLConfig.cmake
+    sfml-config.cmake
+
+  Add the installation prefix of "SFML" to CMAKE_PREFIX_PATH or set
+  "SFML_DIR" to a directory containing one of the above files.  If "SFML"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/barisy/CLionProjects/LogicSimulatorProject/cmake-build-debug/CMakeFiles/CMakeOutput.log".
