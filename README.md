@@ -10,13 +10,13 @@ This project is a logic circuit simulator that allows users to build and simulat
 
 
 
-### Prerequisites
+## Prerequisites
     A C++ compiler (such as GCC or Clang)
     CLion IDE or Visual Studio 
     CMake
     SFML library
     
-### Getting Started    
+## Getting Started    
 
 ### Installation
 
