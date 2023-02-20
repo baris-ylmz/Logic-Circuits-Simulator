@@ -28,5 +28,13 @@ This project is a logic circuit simulator that allows users to build and simulat
        - find_package(SFML COMPONENTS system window graphics audio REQUIRED)
        - include_directories (path/to/SFML-2.x/include)
        - target_link_libraries(LogicCircuitsProject sfml-system sfml-window sfml-graphics sfml-audio)
+### Usage
+    - Use the left mouse button to select a logic gate from the toolbox on the left side of the window
+    - Use the left mouse button to place the selected logic gate on the canvas
+    - Connect the inputs and outputs of the gates with wires. Use the left mouse button to select Wire mode from the toolbox on the left side of the window
+    - Click an output pin of an element to select it, then click an input pin of another element to create a wire between them
+    - Provide logic 1 or logic 0 to the circuit by clicking on the "Input" button and clicking on an input pin of an element
+    - Calculation of boolean functions can be done by clicking on the "Run" button on the top of the toolbox
+    - Observe the circuit output.
     
 
