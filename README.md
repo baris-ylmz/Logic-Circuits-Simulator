@@ -17,8 +17,7 @@ This project is a logic circuit simulator that allows users to build and simulat
 
 ### Installation
 
-    1. Clone the repository to your local machine
-    git clone https://github.com/baris-ylmz/Logic-Circuits-Simulator.git
+    1. Clone the repository to your local machine git clone https://github.com/baris-ylmz/Logic-Circuits-Simulator.git
     2. Navigate to the project directory
     3. Open the project in CLion or Visual Studio
     4. Install SFML graphics library. https://www.sfml-dev.org/download.php
