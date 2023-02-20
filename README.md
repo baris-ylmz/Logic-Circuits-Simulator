@@ -8,12 +8,15 @@ This project is a logic circuit simulator that allows users to build and simulat
     Simulation of digital circuits
     Display of circuit output
 
-### Getting Started
-### Prerequisites
 
+
+### Prerequisites
+    A C++ compiler (such as GCC or Clang)
     CLion IDE or Visual Studio 
     CMake
     SFML library
+    
+### Getting Started    
 
 ### Installation
 
@@ -29,6 +32,7 @@ This project is a logic circuit simulator that allows users to build and simulat
        - include_directories (path/to/SFML-2.x/include)
        - target_link_libraries(LogicCircuitsProject sfml-system sfml-window sfml-graphics sfml-audio)
 ### Usage
+    - Build the project using built-in tools, run the executable file to start the simulator
     - Use the left mouse button to select a logic gate from the toolbox on the left side of the window
     - Use the left mouse button to place the selected logic gate on the canvas
     - Connect the inputs and outputs of the gates with wires. Use the left mouse button to select Wire mode from the toolbox on the left side of the window
